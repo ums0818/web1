@@ -1,0 +1,726 @@
+html{
+    font-family: 'NanumSquareR';
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+
+body {
+    margin: 0px auto;
+    background-color: #f4f4f4;
+    color: #505050;
+    font-size: 15px;
+    text-align: left;
+    word-break: keep-all;
+}
+
+
+h1 {font-size: 72px;
+    font-weight: bold;
+    margin: 0px 0px;
+}
+
+h2 {
+    padding: 86px 0px;
+    margin: 0px 0px;
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    
+}
+
+h3,h4,h5 {
+    margin: 0px 0px;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+p{
+    margin: 0px 0px;
+    letter-spacing: -0.5px;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+}
+.main_contents{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main_contents_inside{
+    margin:0 5vw;
+}
+
+.section0{
+    height:370px;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    line-height: 1.25;
+    text-align: center;
+    padding: 214px 0px 0px 0px;
+    background: #939393 url('https://righttaxservice.com/img/bg/sub-top-bg01.jpg') top no-repeat; 
+
+    display: block;
+}
+
+.hash_tag{
+    margin: 0px 0px;
+}
+
+
+
+
+.section1{
+    color: #363636;
+    padding: 0 5vw;
+}
+
+.section1_title{
+    color: #333;
+    font-weight: normal;
+}
+
+.underline{
+    max-width: 770px;
+    margin: 0px auto;
+    color: #363636
+}
+
+.underline2{
+    margin: 0px 1.5vw;
+    color: #363636
+}
+
+.underline2_no_br_in_mobile{margin: 0px 1.5vw;
+    color: #000}
+.underline2_no_br_in_pc{margin: 0px 1.5vw;
+    color: #363636}
+
+.section1_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 66px;
+}
+
+.section1_image {
+    width: 20vw;
+}
+.section1_image .section1_image_mobile{
+    display:none;
+}
+.section1_others{
+    padding-left: 5vw;
+    width: 55vw;
+}
+
+.section1_double_quotation{
+    font-family: 'Nanum Myeongjo';
+    font-size: 100px;
+    line-height: 1;
+    height: 24px;
+    color: #d5c0a5;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.section1_subtitle{
+    padding-top: 30px;
+    font-family: 'Nanum Myeongjo';
+    font-size: 30px;
+    line-height: 1.75;
+    text-align: left;
+}
+
+.section1_contents{
+    padding-top: 14px;
+}
+
+
+
+.section2{
+    background: white;
+    padding: 76px 5vw;
+}
+
+.section2_container{
+    display: flex;
+    padding: 20px 2vw;
+    border: 10px solid #d4d4d4;
+    margin-bottom: 35px;
+}
+
+
+.section2_title{
+    padding-right: 2vw;
+    color: #3c92ca;
+    line-height: 1.4;
+    max-width: 150px;
+    width: 15vw;
+}
+
+.section2_others{
+    width: 50vw;
+    padding-left: 2vw;
+}
+
+.section2_subtitle{
+    font-size: 30px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.section2_contents{
+    font-size: 15px;
+    line-height: 2;
+}
+
+
+
+.section3{background: white;
+    padding: 45px 5vw;   
+}
+
+.section3_title{
+    padding-bottom: 20px;
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+}
+
+.section3_contents{    
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.section3_image{
+    max-width: 75vw;
+    padding: 24px 0 15px 0;
+    margin: 0 auto;
+}
+
+
+
+
+.section4{
+    background: white;
+    padding: 76px 5vw 0 5vw;
+}
+
+.section4_title{
+    padding-bottom: 20px;
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+.section4_title_explain{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.section4_container{
+    display: flex;
+    padding: 57px 5vw 0px 5vw;
+}
+
+.section4_subtitle_list{
+    max-width: 200px;
+    width: 20vw;
+}
+
+.section4_others{
+    width: 55vw;
+    padding-left: 2vw;
+}
+.section4_subtitle_pc{
+    color: #3c92ca;
+    font-size: 30px;
+    line-height: 1;
+    text-align: left;
+}
+.section4_subtitle_mobile{
+    color: #3c92ca;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    display: none;
+}
+
+
+.section4_minititle{
+    font-size: 30px;
+    padding-bottom: 14px;
+    line-height: 1;
+    text-align: left;
+}
+
+.section4_contents{
+    font-size: 15px;
+    padding-bottom: 57px;
+    line-height: 2;
+}
+
+.section4_icon{
+    width: 95px;
+    padding-right: 2.5vw;
+    margin: 16px auto;
+}
+
+.section4_image{
+    margin: 15px auto;
+}
+
+
+
+
+
+.section5{
+    background: white;
+    padding: 0px 5vw;
+}
+
+.section5_container{
+    padding: 100px 2vw 100px 2vw;
+    background: #f4f4f4;
+}
+.section5_inside{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section5_title{
+    font-size: 30px;
+    padding-bottom: 28px;
+    line-height: 1;
+    text-align: left;
+}
+
+.section5_contents{
+    padding-left: 5px;
+    line-height: 2.5;
+    padding-bottom: 0px;
+}
+
+.section5_contents a{
+    color: #444;
+    text-decoration: none;
+}
+
+
+.section5_contents li{
+    display:table;
+    color: #444;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+
+
+.read_more{
+    background: white;
+    padding: 40px 5vw 72px 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.read_more_icon{
+    padding: 7px 10px;
+    color: #3c92ca;
+    border: 1px solid #3c92ca;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 2px 15px 2px;
+}
+.read_more a{
+    color: #3c92ca;
+    text-decoration: none;
+}
+
+.banner{
+    margin-top:15px;
+    padding: 0 0 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner_icon{
+    margin: 0px 2px 15px 2px;
+}
+
+
+
+
+
+.footer {
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+}
+
+.footer1{
+    height: 470px;
+    background: #939393 url(https://righttaxservice.com/img/bg/rts-footer-bg00-pc.jpg) top no-repeat;
+
+}
+
+.footer1_container{
+    width: 85vw;
+    max-width: 1150px;
+    font-family: 'Nanum Myeongjo';
+    height: 470px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.footer1_title{
+    font-family: 'Nanum Myeongjo';
+    font-size: 48px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.footer1_subtitle{
+    font-family: 'NanumSquareR';
+    font-size: 30px;
+    line-height: 1.33333;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.footer1_search{
+    font-size: 24px;
+    padding: 8px;
+    border: white solid 3px ;
+}
+
+
+.footer1_icon{
+    height: 24px;
+    padding-top: 8px;
+    display: inline;
+}
+
+.footer1_apply{
+    padding: 10px 24px;
+    width: 170px;
+    font-size: 17px;
+    background: #47acef;
+    border-radius: 30px;
+}
+
+.footer1_apply{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.footer2 {
+    width: 85vw;
+    max-width: 1150px;
+    padding: 50px 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer2_contents{
+    max-width: 1050px;
+    
+
+}
+.footer2_icons{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer2_icon{
+    padding: 0 10px;
+    width:64px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer2 a{
+    color: white;
+    text-decoration:none;
+}
+
+
+
+
+
+.nav{
+    position:fixed;
+    top: 0px; left: calc(100vw - 135px);
+}
+
+.nav_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+.nav_menu1{
+    width: 135px;
+    height: 100px;
+    
+    position: relative;
+    background: #04A4CC;
+
+    text-align: center;
+    display: block;
+}
+.nav_menu1_icon{
+    padding-top: 22px;
+    width: 56px;
+    height: 37px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+
+}
+
+.nav_menu1 a {
+    font-size: 15px;
+
+    color: white;
+    text-decoration:none;
+}
+
+.nav_menu2{
+    width: 135px;
+    height: 100px;
+    position: relative;
+   
+    background: #fee800;
+    text-align: center;
+    display: block;
+}
+
+.nav_menu2_icon{
+    padding-top: 12px;
+    width: 100px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+
+}
+
+.nav_menu2 a {
+    font-size: 15px;
+    color: black;
+    text-decoration:none;
+}
+
+
+
+
+
+
+.header { 
+    height: 100px;
+    width: 100%;
+    padding: 0px 15px;
+    background-color: #555;
+    opacity: 0.8;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    position: fixed;
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.header a:hover{
+    color:#f0dab9
+}
+
+
+
+.header_container{
+    height: 100px;
+    margin-right: 135px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.logo {
+    min-width: 200px;
+    display:inline-block;
+    padding: 35px 0px;
+    vertical-align: middle;
+    
+}
+
+
+.header_subcontainer{
+    display:inline-flex;
+    
+}
+
+.header_subcontainer ul li{visibility:hidden;}
+.header_subcontainer ul:hover li{visibility:visible;}
+
+
+.main_menu{
+    margin: 0 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding:32px 0px;
+    width:12vw;
+    min-width:120px;
+    display:inline;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.main_sub_menu{
+    margin: 0px 0px;
+    padding:8px 20px;
+    background: black;
+    font-size: 14px;
+    width: 100%;
+    display:table;
+    text-decoration:none;
+    word-break: keep-all;
+}
+
+
+.main_menu a{
+    padding: 9px;
+}
+
+
+.no_br_in_pc{
+    display:none !important;
+}
+
+.underline2_no_br_in_pc{    
+    display:none !important;
+}
+.section3_image_mobile{display:none !important;
+}
+
+
+
+/* mobile */
+@media(max-width: 768px) {
+    body {font-size: 14px;}
+
+    .main_contents_inside{margin:0 1.5vw;}
+
+    h1{padding-top: 57px; font-size: 32px;}
+    H2{padding: 48px 0px; font-size: 20px;}
+    h3,h4,h5 {font-size: 16px; text-align: center;}
+    .no_br_in_mobile{display:none !important;}
+    .no_br_in_pc{display:block !important;}
+
+    .underline{width: 60px; margin-top: 15px;}
+    .underline2{margin: 0px 1.5vw;}
+    .underline2_no_br_in_mobile{display:none !important;}
+    .underline2_no_br_in_pc{display:block !important;}
+
+    .section0{height: 230px;background-size: auto 120%;}
+    .hash_tag{font-size: 15px;}
+
+    .section1{padding: 10px 1.5vw 10px 1.5vw;}
+    .section1_title{margin-left: auto; margin-right: auto;}
+    .section1_subtitle{font-size: 16px; text-align: center; border: normal; padding-bottom: 15px;}
+    .section1_container {flex-direction: column;}
+    .section1_image {width:100%;}
+    .section1_image .section1_image_mobile{display:block;}
+    .section1_image .section1_image_pc{display:none;}
+    .section1_others{padding-left: 0; width: 90vw;}
+    .section1_double_quotation{font-size: 48px; text-align: center;}
+    .section1_contents{font-size: 17px;}
+
+    .section2{padding: 10px 1.5vw 10px 1.5vw;}
+    .section2_container{flex-direction: column; border: 5px solid #d4d4d4;}
+    .section2_title{width: 84vw; padding-top: 20px; padding-bottom: 30px; padding-right: 0; font-size: 15px; text-align: center; margin-left: auto; margin-right: auto;}
+    .section2_subtitle{font-size: 15px; text-align: left; line-height: 1.6;}
+    .section2_others{ width: 84vw;}
+    .section2_contents{line-height: 1.6;}
+
+    .section3{padding: 20px 1.5vw 30px 1.5vw;}
+    .section3_title{font-size: 18px;}
+    .section3_contents{ font-size: 15px;text-align: left;}
+    .section3_image_mobile{display:block !important;}
+    .section3_image{display:none !important;}
+    
+
+    .section4{padding: 20px 1.5vw 0px 1.5vw;}
+    .section4_title{font-size: 18px;}
+    .section4_title_explain{font-size: 15px;text-align: left;}
+    .section4_container{flex-direction: column;  padding: 30px 1.5vw 30px 1.5vw;}
+    .section4_subtitle_pc{display:none !important;}
+    .section4_subtitle_mobile{display:block !important; margin-left: auto; margin-right: auto;}
+    .section4_subtitle_list{max-width: 85vw; width: 85vw; margin-left: auto; margin-right: auto;}
+    .section4_icon{width: 70px; padding-right: 0vw; margin: 20px auto;}
+    .section4_subtitle_mobile{padding-bottom: 20px;}
+    .section4_minititle{padding-top: 30px; font-size: 18px;}
+    .section4_others{padding-left: 0; width: 90vw;}
+    .section4_contents{line-height: 1.6; padding-bottom: 20px;}
+
+    .section5{padding: 0px 1.5vw 00px 1.5vw;}
+    .section5_container{padding: 60px 5vw 60px 5vw;}
+    .section5_title{font-size: 18px; text-align: center; line-height: 1.6; }
+    .section5_contents{line-height: 2;}
+
+    .read_more{flex-direction: column; padding: 30px 1.5vw 50px 1.5vw;}
+    .banner{flex-direction: column; padding: 0px 1.5vw 50px 1.5vw;}
+
+    .footer1{height: 560px; background:#939393 url(https://righttaxservice.com/img/bg/rts-footer-bg01.jpg) top ; background-size:100%; }
+    .footer1_container{ width: 92vw;}
+    .footer1_title{border: normal; font-size: 22px; margin-bottom: 18px;}
+    .footer1_subtitle{font-size: 18px; margin-bottom:10px;}
+    .footer1_search{font-size: 16px; padding: 3px; border: white solid 1px ;}
+    .footer1_icon{height: 18px; padding-top: 12px; }
+    .footer1_contents{font-size: 14px;}
+    
+    .footer2 {width: 92vw; font-size: 12px; text-align: center; flex-direction: column-reverse;}
+    .footer2_icons{width: 200px; margin-left: auto; margin-right: auto;}
+    .footer2_icon{width:200px; margin:0 9px; font-size: 11px;}
+    .footer2_icon_image{max-width:200%; width:64px; }
+    .footer2_contents{padding-top: 80px;}
+
+    .nav{position:fixed; top: calc(100vh - 114px); left: calc(100vw - 57px);}
+    .nav_menu1, .nav_menu2{width: 57px;height: 57px;}
+    .nav_menu1_icon{padding-top: 10px; width: 30px; height: 20px;  }
+    .nav_menu2_icon{padding-top: 5px; width: 50px; height: 27px;}
+    .nav_menu1 a{font-size: 7px;}
+    .nav_menu2 a{font-size: 7px;}
+
+    .header {height: 67px;}
+    .logo {padding: 25px 0px;}
+    .logo_image{width: 125px; height: 20px;}
+}
