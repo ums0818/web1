@@ -600,7 +600,7 @@ img {
     width:12vw;
     min-width:120px;
     display:inline;
-    text-align: center;
+    text-align: left;
     word-break: keep-all;
 }
 
